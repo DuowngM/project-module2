@@ -1,0 +1,56 @@
+.movie-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.poster {
+  width: 40%;
+  height: auto;
+  margin-right: 20px;
+}
+.poster img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.info {
+  width: 60%;
+  text-align: left;
+}
+.info h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.info video {
+  width: 500px;
+}
+.buttonMovie {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.buttonWatchMovie {
+  width: 200px;
+  height: 80px;
+  background-color: lightblue;
+  color: black;
+  transition: transform 0.3s ease;
+}
+.buttonAddFav {
+  width: 200px;
+  height: 80px;
+  transition: transform 0.3s ease;
+  border: none;
+}
+.buttonWatchMovie:hover,
+.buttonAddFav:hover {
+  transform: scale(1.1);
+}
+.fa-solid {
+  font-size: 50px;
+  color: #fff;
+}
+.big-heart {
+  font-size: 50px !important;
+}

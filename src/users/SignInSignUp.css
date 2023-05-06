@@ -1,0 +1,31 @@
+.containerUser {
+  text-align: center;
+}
+label,
+button {
+  color: #fff;
+  font-size: 18px;
+}
+
+.inputText {
+  width: 500px;
+  height: 50px;
+  background-color: #fff;
+  color: black;
+  border-radius: 10px;
+}
+.inputUser {
+  padding-bottom: 30px;
+}
+.buttonDK {
+  width: 1000px;
+  height: 50px;
+  background-color: red;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.buttonDK:hover {
+  background-color: #fff;
+  color: red;
+  font-weight: bold;
+}

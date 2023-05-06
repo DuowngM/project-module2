@@ -1,0 +1,19 @@
+.logo-brand {
+  width: 150px;
+}
+
+.nav-link {
+  color: #fff !important;
+}
+.active {
+  color: red !important;
+  border-bottom: 2px solid #fff;    
+}
+.navbarHeader {
+  position: sticky !important;
+  top: 0;
+  z-index: 9999;
+}
+.handleUser {
+  background-color: #222;
+}

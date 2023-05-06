@@ -1,0 +1,35 @@
+.containerAdmin {
+  display: flex;
+  width: 100%;
+  background-color: #222;
+}
+.navbarAdmin {
+  width: 20%;
+  height: 800px;
+  text-align: center;
+}
+.contentAdmin {
+  text-align: center;
+  width: 80%;
+  border-left: 1px solid white;
+}
+.inputMV {
+  background-color: white;
+}
+.tableMV {
+  margin: 0 auto;
+}
+.buttonSave {
+  width: 100px;
+  height: 50px;
+  background-color: red;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+}
+.buttonSave:hover {
+  background-color: aliceblue;
+  color: red;
+  font-weight: bold;
+  transform: scale(1.1);
+}

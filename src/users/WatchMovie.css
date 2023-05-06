@@ -1,0 +1,22 @@
+.srcMovie video {
+  width: 1200px;
+}
+.comment {
+  width: 75%;
+  margin: 0 auto;
+  padding-left: 50px;
+}
+.buttonCMT {
+  width: 100px;
+  height: 30px;
+  position: relative;
+  top: -30px;
+  left: -100px;
+  background-color: #fff;
+  color: red;
+  font-weight: bold;
+}
+
+.ant-rate-star-zero {
+  color: #fff !important;
+}
